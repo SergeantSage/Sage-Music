@@ -31,10 +31,10 @@ module.exports = {
   run: async (client, interaction) => {
     try {
 
-     const supportServerLink = 'https://discord.gg/FUEHs7RCqz';
+     const supportServerLink = 'https://discord.com/invite/XfyUtuEECY';
         const embed = new EmbedBuilder()
             .setColor('#FFFFFF')
-            .setTitle('Support server')
+            .setTitle('🎸 Support server')
             .setDescription(`Click [here](${supportServerLink}) to join our server.\nWe will be there for you anytime ❤️`)
             
             .setTimestamp();
