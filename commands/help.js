@@ -53,10 +53,10 @@ Your ultimate music companion on Discord. Here are the available commands:
 
       const embed = new EmbedBuilder()
         .setColor(config.embedColor)
-        .setTitle(`${botName} Help`)
+        .setTitle(`<:ShySageValorant:1272487983194439813> ${botName} Help`)
         .setThumbnail(client.user.displayAvatarURL()) 
         .setDescription(helpDescription)
-        .setFooter({ text: `Prime Music v1.0`, iconURL: client.user.displayAvatarURL() }) 
+        .setFooter({ text: `Made by SergeantSage`, iconURL: client.user.displayAvatarURL() }) 
       
 
       return interaction.reply({ embeds: [embed] });
