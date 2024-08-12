@@ -34,8 +34,8 @@ module.exports = {
      const supportServerLink = 'https://discord.com/invite/XfyUtuEECY';
         const embed = new EmbedBuilder()
             .setColor('#FFFFFF')
-            .setTitle('🎸 Support server')
-            .setDescription(`Click [here](${supportServerLink}) to join our server.\nWe will be there for you anytime ❤️`)
+            .setTitle('<:SageLoveValorant:1272486045233057825> Join our Discord!')
+            .setDescription(`Click [here](${supportServerLink}) to join our server.\nWe will be there for you anytime <a:PetSageValorant:1272486681848713289>`)
             
             .setTimestamp();
 
